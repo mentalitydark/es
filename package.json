@@ -1,0 +1,22 @@
+{
+  "name": "es",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc */*.ts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentalitydark/es.git"
+  },
+  "author": "MentalityDark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mentalitydark/es/issues"
+  },
+  "homepage": "https://github.com/mentalitydark/es#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
