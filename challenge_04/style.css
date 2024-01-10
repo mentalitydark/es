@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  width: 300px;
+  border: 1px solid #00000011;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+
+#number01, #number02 {
+  text-align: center;
+  padding: 5px 0px;
+  margin: 5px 0px;
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid #383838;
+}
+
+#number01:focus, #number02:focus {
+  outline: 1px solid cyan;
+  border-color: transparent;
+}
+
+#number01:invalid, #number02:invalid {
+  outline: 1px solid red;
+  border-color: transparent;
+}
+
+#result {
+  display: block;
+  border: 1px solid #383838;
+  height: 20px;
+  text-align: center;
+  width: 200px;
+  margin: 5px 0px;
+  padding: 5px 0px;
+  border-radius: 3px;
+}
+
+button {
+  width: 200px;
+  padding: 5px 0px;
+  border: 1px solid #383838;
+  margin: 5px 0px;
+  background-color: #383838;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  filter: brightness(1.2)
+}
